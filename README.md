@@ -22,3 +22,6 @@ When it prompts you to add Root for an unregistered VCS, press Add Root.
 Under VCS, in Android Studio, Enable Version Control Integration. Pick Git as VCS to associate.
 
 Now you can make changes to any of the files and they should turn blue in the Project Navigator.
+
+PLEASE Make your own branch, do not use master branch. You can check which branch you are under in Android Studio via 
+VCS>Git>Branches
