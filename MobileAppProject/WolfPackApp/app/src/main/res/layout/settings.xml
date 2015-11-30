@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F9690E">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:gravity="center|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Set Alarm"
+                android:id="@+id/settings"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#050505" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/setAlarmButton"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/alarmimage"
+                android:background="#F9690E" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:weightSum="1"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Turn off Alarm"
+                android:id="@+id/turnOffAlarm"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="#050505" />
+
+            <ImageButton
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/muteAlarmButton"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/muteimage"
+                android:background="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
