@@ -12,6 +12,14 @@
         android:weightSum="1"
         android:gravity="center_vertical">
 
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next to home screen"
+            android:id="@+id/go_next_home_sc"
+            android:layout_gravity="center_horizontal" />
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
