@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello Yserri and Luke!</string>
     <string name="action_settings">Settings</string>
+    <string name="chsGender">Choose Gender</string>
+
 </resources>

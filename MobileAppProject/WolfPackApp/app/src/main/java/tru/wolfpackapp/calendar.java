@@ -3,11 +3,11 @@ package tru.wolfpackapp;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class currentseason extends AppCompatActivity {
+public class calendar extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.currentseason);
+        setContentView(R.layout.calendar);
     }
 }
