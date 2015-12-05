@@ -2,7 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F9690E">
+    android:background="#F9690E"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/backBtn"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/arrow_blue"
+            android:contentDescription="@string/bkDesc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chsGender"
+            android:id="@+id/chsGenderTextView"
+            android:textSize="30sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
 
     <LinearLayout
         android:orientation="vertical"
@@ -19,7 +43,7 @@
             android:layout_gravity="center_horizontal"
             android:background="#3070ff"
             android:textColor="#ffffff"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -37,7 +61,7 @@
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
             android:background="#3070ff"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -55,7 +79,7 @@
             android:layout_gravity="center_horizontal"
             android:textColor="#ffffff"
             android:background="#3070ff"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>
