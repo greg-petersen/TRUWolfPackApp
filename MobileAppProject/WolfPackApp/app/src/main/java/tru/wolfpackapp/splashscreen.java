@@ -1,10 +1,15 @@
 package tru.wolfpackapp;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class splashscreen extends AppCompatActivity
 {
@@ -16,16 +21,24 @@ public class splashscreen extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
 
-        go_next_home_sc = (Button) findViewById(R.id.go_next_home_sc);//initializing the go net button
-        go_next_home_sc.setOnClickListener(goNext);//setting the onclick listener
+        ImageView splash = (ImageView)findViewById(R.id.splashIcon);
+        ObjectAnimator fadeIn = ObjectAnimator.ofFloat(splash, "alpha", 1f, 0f);
+        fadeIn.setDuration(1500);
+        ObjectAnimator fadeOut = ObjectAnimator.ofFloat(splash, "alpha", 0f, 1f);
+        fadeOut.setDuration(1500);
+
+        final AnimatorSet aSet = new AnimatorSet();
+        aSet.play(fadeIn).after(fadeOut);
+
+        aSet.addListener(new AnimatorListenerAdapter() {
+            @Override
+            public void onAnimationEnd(Animator animation) {
+                super.onAnimationEnd(animation);
+                Intent hs = new Intent(getApplicationContext(), homescreen.class);
+                startActivity(hs);
+                finish();
+            }
+        });
+        aSet.start();
     }
-    private View.OnClickListener goNext = new View.OnClickListener()//function to call the next activity
-    {
-        @Override
-        public void onClick(View v)
-        {
-            Intent intent = new Intent (v.getContext(), homescreen.class);
-            startActivity(intent);
-        }
-    };//i stopped here, just following our graphical flow from the draw.io
 }

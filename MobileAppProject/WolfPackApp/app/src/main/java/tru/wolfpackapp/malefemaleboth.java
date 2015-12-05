@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class malefemaleboth extends AppCompatActivity {
 
@@ -17,6 +18,12 @@ public class malefemaleboth extends AppCompatActivity {
         Button femaleButton = (Button) findViewById(R.id.femaleButton);
         Button bothButton = (Button) findViewById(R.id.bothButton);
 
+        findViewById(R.id.backBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         maleButton.setOnClickListener(new View.OnClickListener() {
             @Override
