@@ -5,4 +5,4 @@ Thu Feb 18 2016 - Sun Feb 21 2016,Winnipeg,Speedo Western Canadian Swimming Cham
 Sat Mar 12 2016 - Sun Mar 13 2016,TBA,SwimBC Senior Open LCM
 Tue April 5 2016 - Sun April 10 2016,Toronto,Swimming Canada Olympic Trials
 Fri May 13 2016 - Sun May 15 2016,Kelowna,KAJ LCM Invitational
-Jun 3 2016 - Jun 5 2016,Kamloops,KCS June Classic
+Fri Jun 3 2016 - Sun Jun 5 2016,Kamloops,KCS June Classic
