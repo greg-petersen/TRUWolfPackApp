@@ -145,6 +145,7 @@ public class gamesList extends AppCompatActivity {
     private AdapterView.OnItemClickListener itemSelectHandler = new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Log.d("testest", "lkjfalskjfasldfkj");
             Intent intent = new Intent(getApplicationContext(), gamedetails.class);
             eventObj obj = gameInfo.get(position);
             intent.putExtra("gameinfo", obj);
