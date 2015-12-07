@@ -1,28 +1,28 @@
 Date,Vs,Location,Time,Result
-Wed Aug 12*,Arizona Desert Cup-Mesa College Thunderbirds (NJCAA),"Phoenix Arizona",,W 3-0
-Fri Aug 14*,Arizona Desert Cup-Glendale Community CollegeVasqueros(NJCAA),"Phoenix Arizona",,W 3-2
-Sat Aug 15*,Arizona Desert Cup- Phoenix College Bears (NJCAA),"Phoenix Arizona",,L 3-2
-Thurs Aug 20 *,vs UNBC Timberwolves,"Hillside Stadium",4:00 PM,W 2-0
-Sat Aug 22*,MacEwan Griffins vs UBCO Heat,"Hillside Stadium",9:00 AM,UBCO 2-1
-Sat Aug 22*,UNBC Timberwolves vs Langara College Falcons (PACWEST),Hillside Stadium,11:00 AM,UNBC 6-1
-Sat Aug 22*,vs Douglas College Royals (PACWEST),Hillside Stadium,1:00 PM,W 3-0
-Sun Aug 23*,MacEwan vs UNBC Timberwolves,Hillside Stadium,9:00 AM,UNBC 2-0
-Sun Aug 23*,UBCO Heat vsDouglas College(PACWEST),Hillside Stadium,11:00 AM,T 3-3
-Sun Aug 23*,vs Langara Falcons (PACWEST),Hillside Stadium,1 pm,W 4-1
-Fri Aug 28*,UBCO Tournament- University of Saskatchewan Huskies,"Kelowna BC",5 pm,T 0-0
-Sat Aug 29*,UBCO Tournament-Douglas College Royals (PACWEST),"Kelowna BC",5 pm,T 0-0
-Sat Sept 12,vs Trinity Western University Spartans (home and season opener),Hillside Stadium,2 pm,L 3-1
-Sun Sept 13,vs University of the Fraser ValleyCascades,Hillside Stadium,2:00 PM,W 3-0
-Fri Sept 25,University of British Columbia Thunderbirds,"Vancouver BC",7:00 PM,L 2-0
-Sat Sept 26,University of Victoria Vikes,"Victoria BC",7:15 PM,L 5-1
-Fri Oct 2,Trinity Western University Spartans,"Langley BC",7:15 PM,L 2-1
-Sat Oct 3,University of the Fraser Valley Cascades,"Abbotsford BC",6:15 pm,T 2-2
-Fri Oct 9,University of British Columbia Okanagan Heat,"Kelowna BC",7 pm,T 1-1
-Sat Oct 10,vs University of British Columbia Okanagan Heat,Hillside Stadium.,7 pm,L 2-1
-Sat Oct 17,vs University of British Columbia Thunderbirds,Hillside Stadium,2 pm,L 3-0
-Sun Oct 18,vs University of Victoria Vikes,Hillside Stadium,2 pm,W 4-2
-Sat Oct 24,vs University of Northern British Columbia Timberwolves,Hillside Stadium,2:15 pm,W 5-2
-Sun Oct 25,vs University of Northern British Columbia Timberwolves,Hillside Stadium,2:15 pm,T 1-1
-Sat Oct 31,Canada West Quarterfinals,,,
-Sat Nov 7,Canada West Final Four,Top Pacific Division seed,,
-Thurs Nov 12,CISSoccer Nationals hosted by York University,"Toronto Ontario",,
+2015 Wed Aug 12,Arizona Desert Cup-Mesa College Thunderbirds (NJCAA),"Phoenix Arizona",,W 3-0
+2015 Fri Aug 14,Arizona Desert Cup-Glendale Community CollegeVasqueros(NJCAA),"Phoenix Arizona",,W 3-2
+2015 Sat Aug 15,Arizona Desert Cup- Phoenix College Bears (NJCAA),"Phoenix Arizona",,L 3-2
+2015 Thu Aug 20,vs UNBC Timberwolves,"Hillside Stadium",4:00 PM,W 2-0
+2015 Sat Aug 22,MacEwan Griffins vs UBCO Heat,"Hillside Stadium",9:00 AM,UBCO 2-1
+2015 Sat Aug 22,UNBC Timberwolves vs Langara College Falcons (PACWEST),Hillside Stadium,11:00 AM,UNBC 6-1
+2015 Sat Aug 22,vs Douglas College Royals (PACWEST),Hillside Stadium,1:00 PM,W 3-0
+2015 Sun Aug 23,MacEwan vs UNBC Timberwolves,Hillside Stadium,9:00 AM,UNBC 2-0
+2015 Sun Aug 23,UBCO Heat vsDouglas College(PACWEST),Hillside Stadium,11:00 AM,T 3-3
+2015 Sun Aug 23,vs Langara Falcons (PACWEST),Hillside Stadium,1 pm,W 4-1
+2015 Fri Aug 28,UBCO Tournament- University of Saskatchewan Huskies,"Kelowna BC",5 pm,T 0-0
+2015 Sat Aug 29,UBCO Tournament-Douglas College Royals (PACWEST),"Kelowna BC",5 pm,T 0-0
+2015 Sat Sept 12,vs Trinity Western University Spartans (home and season opener),Hillside Stadium,2 pm,L 3-1
+2015 Sun Sept 13,vs University of the Fraser ValleyCascades,Hillside Stadium,2:00 PM,W 3-0
+2015 Fri Sept 25,University of British Columbia Thunderbirds,"Vancouver BC",7:00 PM,L 2-0
+2015 Sat Sept 26,University of Victoria Vikes,"Victoria BC",7:15 PM,L 5-1
+2015 Fri Oct 2,Trinity Western University Spartans,"Langley BC",7:15 PM,L 2-1
+2015 Sat Oct 3,University of the Fraser Valley Cascades,"Abbotsford BC",6:15 pm,T 2-2
+2015 Fri Oct 9,University of British Columbia Okanagan Heat,"Kelowna BC",7 pm,T 1-1
+2015 Sat Oct 10,vs University of British Columbia Okanagan Heat,Hillside Stadium.,7 pm,L 2-1
+2015 Sat Oct 17,vs University of British Columbia Thunderbirds,Hillside Stadium,2 pm,L 3-0
+2015 Sun Oct 18,vs University of Victoria Vikes,Hillside Stadium,2 pm,W 4-2
+2015 Sat Oct 24,vs University of Northern British Columbia Timberwolves,Hillside Stadium,2:15 pm,W 5-2
+2015 Sun Oct 25,vs University of Northern British Columbia Timberwolves,Hillside Stadium,2:15 pm,T 1-1
+2015 Sat Oct 31,Canada West Quarterfinals,,,
+2015 Sat Nov 7,Canada West Final Four,Top Pacific Division seed,,
+2015 Thu Nov 12,CISSoccer Nationals hosted by York University,"Toronto Ontario",,
