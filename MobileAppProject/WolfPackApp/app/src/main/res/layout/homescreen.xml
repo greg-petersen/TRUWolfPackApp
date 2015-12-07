@@ -53,8 +53,8 @@
             <Button
                 android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                android:text="Current Season"
-                android:id="@+id/currentSeasonButton"
+                android:text="Current Reminders"
+                android:id="@+id/currentRemindersButton"
                 android:layout_gravity="center_horizontal"
                 android:background="@drawable/buttons"
                 android:textSize="15dp" />
