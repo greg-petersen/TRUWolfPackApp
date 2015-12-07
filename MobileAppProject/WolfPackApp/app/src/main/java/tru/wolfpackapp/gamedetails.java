@@ -46,6 +46,8 @@ public class gamedetails extends AppCompatActivity {
             dataToDisplay.add(data.getLocation());
         }
         else{
+            //Log.d("data", data.toString());
+
             DateFormat df = new SimpleDateFormat("yyyy EEE MMM d", Locale.ENGLISH);
             dataToDisplay.add(df.format(data.getDate()));
             dataToDisplay.add(data.getVersus());
