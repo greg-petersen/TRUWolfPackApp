@@ -11,7 +11,6 @@ import android.widget.ListView;
 
 public class sportlist extends AppCompatActivity {
 
-    public final static String FILTERS = "tru.wolfpackapp.FILTERS";
     private String genderFilter;
     private String[] maleSports = {"Basketball", "Soccer", "Volleyball", "Swimming", "Baseball"};
     private String[] femaleSports = {"Basketball", "Soccer", "Volleyball", "Swimming"};
@@ -23,7 +22,7 @@ public class sportlist extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sportslist);
         Intent intent = getIntent();
-        genderFilter = intent.getStringExtra(malefemaleboth.FILTERS);
+        genderFilter = intent.getStringExtra("filters");
         Log.d("testest", "Filter: " + genderFilter);
         ListView lv = (ListView)findViewById(R.id.sportsList);
         ArrayAdapter<String> sportsAdapter;
@@ -59,7 +58,7 @@ public class sportlist extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             Log.d("testest", "Item clicked: " + sports[position]);
             Intent intent = new Intent(getApplicationContext(), gamesList.class);
-            intent.putExtra(FILTERS, genderFilter+","+sports[position]);
+            intent.putExtra("filters", genderFilter+","+sports[position]);
             startActivity(intent);
         }
     };

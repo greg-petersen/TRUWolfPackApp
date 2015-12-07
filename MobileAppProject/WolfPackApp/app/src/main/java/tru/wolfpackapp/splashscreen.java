@@ -21,7 +21,7 @@ public class splashscreen extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
 
-        int duration = 0; // Change back to 1500.
+        int duration = 1500; // Change back to 1500.
 
         ImageView splash = (ImageView)findViewById(R.id.splashIcon);
         ObjectAnimator fadeIn = ObjectAnimator.ofFloat(splash, "alpha", 1f, 0f);
