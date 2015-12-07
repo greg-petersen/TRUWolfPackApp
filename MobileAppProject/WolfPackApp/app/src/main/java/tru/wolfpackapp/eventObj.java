@@ -36,11 +36,14 @@ public class eventObj implements Serializable{
     public eventObj(String[] data, String sport, int gen){
         this.sport = sport;
         this.gender = gen;
-        switch(data.length){
-            case 3:
-                String dateString;
-                DateFormat format;
-                Date newDate;
+
+        String dateString;
+        DateFormat format;
+        Date newDate;
+
+        switch(sport){
+            case "swimming":
+                // Date,Location,Meet
                 try{
                     dateString = data[0];
                     format = new SimpleDateFormat("yyyy EEE MMM d", Locale.ENGLISH);
@@ -54,24 +57,64 @@ public class eventObj implements Serializable{
                     e.printStackTrace();
                 }
                 break;
-            case 5:
+            default:
+                // Date,Vs,Location,Time,Result
+                Log.d("testest", "Length: " + data.length);
                 try{
-                    dateString = data[0];
-                    format = new SimpleDateFormat("yyyy EEE MMM d", Locale.ENGLISH);
-                    newDate = format.parse(dateString);
-                    // PARSE DATE HERE.
-                    // DATE PARSING
-                    this.date = newDate;
-                    this.versus = data[1];
-                    this.location = data[2];
-                    this.time = data[3];
-                    this.result = data[4];
-                }catch(Exception e){
+                    switch (data.length){
+                        case 1:
+                        case 2:
+                            dateString = data[0];
+                            format = new SimpleDateFormat("yyyy EEE MMM d", Locale.ENGLISH);
+                            newDate = format.parse(dateString);
+                            this.date = newDate;
+                            this.versus = data[1];
+                            this.location = "TBA";
+                            this.time = "TBA";
+                            this.result = "TBA";
+                            break;
+                        case 3:
+                            dateString = data[0];
+                            format = new SimpleDateFormat("yyyy EEE MMM d", Locale.ENGLISH);
+                            newDate = format.parse(dateString);
+                            this.date = newDate;
+                            this.versus = data[1];
+                            this.location = data[2];
+                            this.time = "TBA";
+                            this.result = "TBA";
+                            break;
+                        case 4:
+                            dateString = data[0];
+                            format = new SimpleDateFormat("yyyy EEE MMM d", Locale.ENGLISH);
+                            newDate = format.parse(dateString);
+                            // PARSE DATE HERE.
+                            // DATE PARSING
+                            this.date = newDate;
+                            this.versus = data[1];
+                            this.location = data[2];
+                            this.time = data[3];
+                            this.result = "TBA";
+                            break;
+                        case 5:
+                            dateString = data[0];
+                            format = new SimpleDateFormat("yyyy EEE MMM d", Locale.ENGLISH);
+                            newDate = format.parse(dateString);
+                            // PARSE DATE HERE.
+                            // DATE PARSING
+                            this.date = newDate;
+                            this.versus = data[1];
+                            this.location = data[2];
+                            this.time = data[3];
+                            Log.d("data", "NULL: " + data[4]);
+                            this.result = data[4];
+                            break;
+                        default:
+                            break;
+                    }
+                }
+                catch(Exception e){
                     e.printStackTrace();
                 }
-                break;
-            default:
-                Log.d("testest", "Inside object.");
                 break;
         }
     }

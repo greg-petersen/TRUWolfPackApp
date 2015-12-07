@@ -3,7 +3,9 @@
     package="tru.wolfpackapp" >
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application
         android:allowBackup="true"
@@ -33,7 +35,7 @@
         </activity>
 
         <activity
-            android:name=".currentseason"
+            android:name=".currentreminders"
             android:label="Currentseason_code"
             android:parentActivityName=".homescreen" >
         </activity>
@@ -79,13 +81,7 @@
             android:label="Sport_List_code"
             android:parentActivityName=".sportlist" >
         </activity>
-
-        <activity
-            android:name=".youtube_demo"
-            android:label="Sport_List_code"
-            android:parentActivityName=".youtube_demo" >
-        </activity>
-
+        <receiver android:name=".reminderAlert"></receiver>
     </application>
 
 </manifest>

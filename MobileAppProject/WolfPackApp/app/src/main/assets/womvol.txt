@@ -40,6 +40,3 @@ Date,Vs,Location,Time,Result
 2016 Fri Mar 11,CIS Nationals hosted by Brandon University,"Brandon MB",,
 2016 Sat Mar 12,CIS Nationals hosted by Brandon University,"Brandon MB",,
 2016 Sun Mar 13,CIS Nationals hosted by Brandon University,"Brandon MB",,
-
-
-
