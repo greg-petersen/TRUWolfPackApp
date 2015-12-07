@@ -1,19 +1,19 @@
 Date,Vs,Location,Time,Result
-*Sat Aug 15,Grande Prairie Regional College Wolves (ACAC),Hillside Stadium,10:30 am,T 0-0
-*Fri Aug 28,University of Northern British Columbia Timberwolves,"Prince George BC",,W 2-1
-*Sat Aug 29,MacEwan University Griffins,"Prince George BC",11 am,L 3-1
-Fri Sept 4,University of Manitoba Bisons (season opener),"Winnipeg MB",6 pm,L 4-0
-Sat Sept 5,University of Winnipeg Wesmen,"Winnipeg MB",4 pm,W 3-1
-Fri Sept 11,University of Alberta Pandas,"Edmonton AB",5 pm,T 2-2
-Sun Sept 13 ,University of Northern British Columbia Timberwolves,"Prince George BC",noon,W 3-0
-Fri Sept 18,University of Fraser Valley Cascades,"Abbotsford BC",5:00 PM,L 1-0
-Sat Sept 19,Trinity Western University Spartans,"Langley BC",5:00 PM,L 3-0
-Sat Sept 26,University of Victoria Vikes (home opener),Hillside Stadium,2:00 PM,L 3-0
-Sun Sept 27,University of British Columbia Thunderbirds,Hillside Stadium,2:00 PM,L 4-0
-Fri Oct 9,University of British Columbia Okanagan Heat,"Kelowna BC",5 pm,W 3-0
-Sat Oct 10,University of British Columbia Okanagan Heat,Hillside Stadium,5:00 PM,T 1-1
-Sat Oct 17,Mount Royal University Cougars,Hillside Stadium,noon,W 1-0
-Sun Oct 18,MacEwan University Griffins,Hillside Stadium,noon,L 2-1
-Sat Oct 24,University of Alberta Pandas,Hillside Stadium,noon,L 1-0
-Sun Oct 25,University of Northern British Columbia Timberwolves,Hillside Stadium,noon,W 2-0
-Fri Oct 30,Canada West quarter finals vs UBC,UBC,5:30 PM,L 6-1
+2015 Sat Aug 15,Grande Prairie Regional College Wolves (ACAC),Hillside Stadium,10:30 am,T 0-0
+2015 Fri Aug 28,University of Northern British Columbia Timberwolves,"Prince George BC",,W 2-1
+2015 Sat Aug 29,MacEwan University Griffins,"Prince George BC",11 am,L 3-1
+2015 Fri Sept 4,University of Manitoba Bisons (season opener),"Winnipeg MB",6 pm,L 4-0
+2015 Sat Sept 5,University of Winnipeg Wesmen,"Winnipeg MB",4 pm,W 3-1
+2015 Fri Sept 11,University of Alberta Pandas,"Edmonton AB",5 pm,T 2-2
+2015 Sun Sept 13 ,University of Northern British Columbia Timberwolves,"Prince George BC",noon,W 3-0
+2015 Fri Sept 18,University of Fraser Valley Cascades,"Abbotsford BC",5:00 PM,L 1-0
+2015 Sat Sept 19,Trinity Western University Spartans,"Langley BC",5:00 PM,L 3-0
+2015 Sat Sept 26,University of Victoria Vikes (home opener),Hillside Stadium,2:00 PM,L 3-0
+2015 Sun Sept 27,University of British Columbia Thunderbirds,Hillside Stadium,2:00 PM,L 4-0
+2015 Fri Oct 9,University of British Columbia Okanagan Heat,"Kelowna BC",5 pm,W 3-0
+2015 Sat Oct 10,University of British Columbia Okanagan Heat,Hillside Stadium,5:00 PM,T 1-1
+2015 Sat Oct 17,Mount Royal University Cougars,Hillside Stadium,noon,W 1-0
+2015 Sun Oct 18,MacEwan University Griffins,Hillside Stadium,noon,L 2-1
+2015 Sat Oct 24,University of Alberta Pandas,Hillside Stadium,noon,L 1-0
+2015 Sun Oct 25,University of Northern British Columbia Timberwolves,Hillside Stadium,noon,W 2-0
+2015 Fri Oct 30,Canada West Quarter Finals vs UBC,UBC,5:30 PM,L 6-1
