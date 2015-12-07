@@ -22,10 +22,8 @@ import java.util.List;
  */
 public class gamesList extends AppCompatActivity {
     private ArrayList games;
-    private ArrayList<String[]> gameInfo;
+    private ArrayList<eventObj> gameInfo;
     private String gender, sport;
-
-    public final static String GAMEINFO = "tru.wolfpackapp.GAMEINFO";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +31,7 @@ public class gamesList extends AppCompatActivity {
         setContentView(R.layout.gameslist);
 
         Intent intent = getIntent();
-        String filters[] = intent.getStringExtra(sportlist.FILTERS).split(",");
+        String filters[] = intent.getStringExtra("filters").split(",");
         gender = filters[0];
         sport = filters[1];
         String file = "";
@@ -42,10 +40,21 @@ public class gamesList extends AppCompatActivity {
         games = new ArrayList();
         gameInfo = new ArrayList();
 
+        int genderInt = -1;
+        switch(gender){
+            case "men": genderInt = 0;
+                break;
+            case "wom": genderInt = 1;
+                break;
+            default:
+                Log.d("testest", "Gender error.");
+                break;
+        }
+
         // Special case for swimming:
         if(sport.equals("swimming")) {
             file = "swimming.txt";
-            getData(file);
+            getData(file, genderInt, sport);
         }
         else{
             if(gender.equals("both"))
@@ -54,13 +63,13 @@ public class gamesList extends AppCompatActivity {
                 fileM = "men"+sport + ".txt";
                 fileF = "wom"+sport + ".txt";
                 Log.d("testest", fileM + " " + fileF);
-                getData(fileM);
-                getData(fileF);
+                getData(fileM, genderInt, sport);
+                getData(fileF, genderInt, sport);
             }
             else{
                 file += gender + sport + ".txt";
                 Log.d("testest", file);
-                getData(file);
+                getData(file, genderInt, sport);
             }
         }
         findViewById(R.id.backBtn).setOnClickListener(new View.OnClickListener() {
@@ -71,7 +80,7 @@ public class gamesList extends AppCompatActivity {
         });
     }
 
-    private void getData(String fileToOpen){
+    private void getData(String fileToOpen, int thisGender, String thisSport){
         try{
             //Log.d("testest", this.toString());
             dataAccess da = new dataAccess(this, fileToOpen);
@@ -83,55 +92,36 @@ public class gamesList extends AppCompatActivity {
 
             switch (testSplit.length){
                 case 3:
-                    date = testSplit[0];
-                    location = testSplit[1];
-                    meet = testSplit[2];
-                    //Log.d("testset", "Headers found: " + date + " " + location + " " + meet);
-
                     test = da.readLine();
                     while(test!=null){
                         testSplit = test.split(",");
-                        /*
-                        Log.d("testset", "READ: " + test);
-                        Log.d("testset", "Date: " + testSplit[0]);
-                        Log.d("testset", "Location: " + testSplit[1]);
-                        Log.d("testset", "Meet: " + testSplit[2]);
-                        Log.d("testset", "*******************************************************");
-                        */
 
+                        //Log.d("testset", "READ: " + test);
+                       // Log.d("testset", "Date: " + testSplit[0]);
+                        //Log.d("testset", "Location: " + testSplit[1]);
+                     //   Log.d("testset", "Meet: " + testSplit[2]);
+                      //  Log.d("testset", "*******************************************************");
                         games.add(testSplit[0]);
-                        testSplit[0] = "DATE: " + testSplit[0];
-                        testSplit[1] = "LOCATION: " + testSplit[1];
-                        testSplit[2] = "MEET: " + testSplit[2];
-
-                        gameInfo.add(testSplit);
+                        gameInfo.add(new eventObj(testSplit, thisSport, thisGender));
                         test = da.readLine();
                     }
-                    //Log.d("testset", "End of while");
                     da.close();
                     break;
                 case 5:
                     String [] headers = testSplit;
-                    //Log.d("testset", "Headers found: " + headers[0] + " " + headers[1] + " " + headers[2] + " " + headers[3] + " " + headers[4]);
 
                     test = da.readLine();
                     while(test!=null){
                         testSplit = test.split(",");
-                        /*
-                        Log.d("testset", "READ: " + test);
-                        for(int x = 0; x<testSplit.length; x++)
-                            Log.d("testset", headers[x] + ": " + testSplit[x]);
-                        Log.d("testset", "*******************************************************");
-                        */
+
+                       // Log.d("testset", "READ: " + test);
+                       // for(int x = 0; x<testSplit.length; x++)
+                       //     Log.d("testset", headers[x] + ": " + testSplit[x]);
+                       // Log.d("testset", "*******************************************************");
                         games.add(testSplit[0]);
-
-                        for(int x = 0; x<testSplit.length; x++)
-                            testSplit[x] = headers[x] + ": " + testSplit[x];
-                        gameInfo.add(testSplit);
-
+                        gameInfo.add(new eventObj(testSplit, thisSport, thisGender));
                         test = da.readLine();
                     }
-                    //Log.d("testset", "End of while");
                     da.close();
                     break;
                 default:
@@ -156,16 +146,9 @@ public class gamesList extends AppCompatActivity {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             Intent intent = new Intent(getApplicationContext(), gamedetails.class);
-            String [] test = gameInfo.get(position);
+            eventObj obj = gameInfo.get(position);
 
-            Log.d("testest", "" + test.length);
-
-            for(int x = 0; x<test.length;x++)
-                Log.d("testest", test[x]);
-
-            intent.putExtra(GAMEINFO, test);
-            intent.putExtra("gender", gender);
-            intent.putExtra("sport", sport);
+            intent.putExtra("gameinfo", obj.toString());
             startActivity(intent);
         }
     };

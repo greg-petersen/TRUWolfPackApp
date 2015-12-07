@@ -1,5 +1,7 @@
 Date,Location,Meet
-Fri Dec 11 2015 - Sun Dec 13 2015,Kamloops,MJB Law Classic
+Fri Dec 11,Kamloops,MJB Law Classic
+Fri Dec 12,Kamloops,MJB Law Classic
+Sun Dec 13,Kamloops,MJB Law Classic
 Fri Jan 22 2016 - Sun Jan 24 2016,Kelowna,KAJ Snowfest
 Thu Feb 18 2016 - Sun Feb 21 2016,Winnipeg,Speedo Western Canadian Swimming Championships
 Sat Mar 12 2016 - Sun Mar 13 2016,TBA,SwimBC Senior Open LCM

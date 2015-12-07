@@ -25,8 +25,7 @@ public class gamedetails extends AppCompatActivity {
         setContentView(R.layout.gamedetails);
 
         Intent intent = getIntent();
-        data = intent.getStringArrayExtra(gamesList.GAMEINFO);
-
+        data = intent.getStringArrayExtra("gameinfo");
         gender = intent.getStringExtra("gender");
         sport = intent.getStringExtra("sport");
 
@@ -37,7 +36,19 @@ public class gamedetails extends AppCompatActivity {
             case "men": gender = "Men's"; break;
             case "wom": gender = "Wom's"; break;
             case "both" : gender = "Mixed"; break;
+            default: Log.d("testest", "What happened?");break;
         }
+        switch(sport){
+            case "bask": sport = "Basketball"; break;
+            case "soc": sport = "Soccer"; break;
+            case "vol": sport = "Volleyball"; break;
+            case "swimming": sport = "Swimming"; break;
+            case "baseball": sport = "Baseball"; break;
+            default: Log.d("testest", "What happened?");break;
+        }
+
+        Log.d("testest", "Sport: " + sport);
+        Log.d("testest", "Gender: " + gender);
 
         ListView lv = ((ListView)findViewById(R.id.gameDetailsLV));
         lv.setAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, data));
