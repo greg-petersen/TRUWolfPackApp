@@ -1,0 +1,35 @@
+Date,Vs,Location,Time,Result
+Tues Oct 8,NAIT Ooks (ACAC),TRU Gym,8pm,W 78-60
+Fri Oct 16,UBCO vs TWU (exhib tourney),TRU Gym,6pm,UBCO 78-64
+Fri Oct 16,Great Falls (NAIA) (exhib tourney),TRU Gym,8:00 PM,W 84-76
+Sat Oct 17,UBCO vs Great Falls (NAIA) (exhibtourney),Tournament Capital Centre,5 pm,Great Falls 66-60
+Sat Oct 17,Trinity Western University Spartans (exhib tourney),Tournament Capital Centre,7:00 PM,W 74-48
+Fri Oct 23,Kwantlen Polytechnic Eagles (PACWEST),Tournament Capital Centre,3pm,W 80-54
+Sat Oct 24,SFU Clan (NCAA Div II),Tournament Capital Centre,2pm,W 74-56
+Sat Oct 31,Northwest University (NAIA),"Kirkland WA",7pm,W 74-72
+Fri Nov 6,University of Northern BC Timberwolves (season opener),"Prince George BC",8:00 PM,W 95-89
+Sat Nov 7,University of Northern BC Timberwolves,"Prince George BC",7:00 PM,W 85-79
+Fri Nov 13,Mount Royal University Cougars,"Calgary AB",8:00 PM,W 101-72
+Sat Nov 14,Mount Royal University Cougars,"Calgary AB",7pm,W 79-66
+Fri Nov 20,MacEwan University Griffins,Tournament Capital Centre,8 pm,W 74-60
+Sat Nov 21,MacEwan University Griffins,Tournament Capital Centre,7 pm,L 90-85
+Fri Nov 27,University of Fraser Valley Cascades,Tournament Capital Centre,8pm,W 89-75
+Sat Nov 28,University of Fraser Valley Cascades,Tournament Capital Centre,7:00 PM,W 96-66
+Tues Dec 29,Rocky Mountain College (NAIA) (exhibition),"Billings MT",,
+Wed Dec 30,Rocky Mountain College (NAIA) (exhibition),"Billings MT",,
+Fri Jan 8,University of BC Okanagan Heat,"Kelowna BC",8:00 PM,
+Sat Jan 9,University of BC Okanagan Heat,"Kelowna BC",7pm,
+Fri Jan 15,MacEwan University Griffins,"Edmonton AB",8:00 PM,
+Sat Jan 16,MacEwan University Griffins,"Edmonton AB",7pm,
+Fri Jan 22,Mount Royal University Cougars,Tournament Capital Centre,8:00 PM,
+Sat Jan 23,Mount Royal University Cougars,Tournament Capital Centre,8pm,
+Fri Feb 5,University of Northern BC Timberwolves,Tournament Capital Centre,8:00 PM,
+Sat Feb 6,University of Northern BC Timberwolves,Tournament Capital Centre,7pm,
+Fri Feb 12,University of Fraser Valley Cascades,"Abbotsford BC",8pm,
+Sat Feb 13,University of Fraser Valley Cascades,"Abbotsford BC",7pm,
+Fri Feb 19,University of BC Okanagan Heat,Tournament Capital Centre,8 pm,
+Sat Feb 20,University of BC Okanagan Heat,Tournament Capital Centre,7 pm,
+Feb 26-28,CW Play in Series,,,
+Mar 4-6,CW QF,,,
+Mar 11-13,CW Final 4,,,
+Mar 17-21,CIS Nationals (hosted by UBC),"Vancouver BC",,

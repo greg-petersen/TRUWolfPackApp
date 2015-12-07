@@ -1,0 +1,47 @@
+Date,Vs,Location,Time,Result
+*Sept17,UBCO Heat,"Kelowna BC",,W 3-2
+*Sept 24,University of Calgary Dinos-Sofaland Tourney,"Edmonton AB",6:00 PM,"L 3-0 (25-22|25-18|25-8)"
+*Sept 25,Keyano College (ACAC)-Sofaland Tourney,"Edmonton AB",11:00 AM,L 3-0
+*Sept 25,UBCO Heat-Sofaland Tourney,"Edmonton AB",6 pm,"L 3-1 (25-15|25-14|22-25|29-27)"
+*Sept 26,Lethbridge College-Sofaland Tourney,"Edmonton AB",1 pm,W 3-1
+*Sept 26,University of Alberta Golden Bears-Sofaland Tourney,"Edmonton AB",7:00 PM,"L3-1 (25-23|31-29|14-25|25-21)"
+*Fri Oct 2,vs Douglas College (PACWEST),Tournament Capital Centre,7:00 PM,"W 3-1 (25-27|25-21|25-21|25-19)"
+*Thurs Oct 8,MVB Tourney-TRU vs Trinity Western,Tournament Capital Centre,Noon,"L 3-2 (25-15|23-25|22-25|25-23|16-14)"
+*Thurs Oct 8,"MVB Tourney-UBCO vs 'Pack""",Tournament Caital Centre,2 pm,"UBCO wins 3-1 (25-17|22-25|25-15|25-21)"
+*Thurs Oct 8,"MVB Tourney-Trinity Western vs ""Pack""",Tournament Capital Centre,5 pm,"TWU wins 3-2 (25-20|23-25|25-23|23-25|15-5)"
+*Thurs Oct 8,MVB Tourney: TRU vs UBCO,Tournament Capital Centre,7:00 PM,"W 3-0 (25-17|25-18|25-23)"
+*Fri Oct 9,MVB Tourney-Trinity Western vs UBCO,TRU Gym,noon,"UBCO wins 3-2 (19-25|25-20|25-15|24-26|15-13)"
+*Fri Oct 9,"MVB Tourney-""Pack"" vs UBCO(bronze medal)",TRU Gym,4:00 PM,"UBCO wins 3-0 (25-15|26-24|25-22)"
+*Fri Oct 9,MVB Tourney-TRU vsTWU(gold medal),TRU Gym,6 pm,"TWU wins 3-1 (25-21|25-23|18-25|25-23)"
+Fri Oct 16,University of Alberta Golden Bears (Season Opener),"Edmonton AB",7:30 PM,"L 3-1 (25-21|25-22|22-25|30-28)"
+Sat Oct 17,University of Alberta Golden Bears,"Edmonton AB",5:00 PM,"L 3-0 (25-23|25-20|25-21)"
+Fri Oct 23,MacEwan University Griffins (home opener),Tournament Capital Centre,7:45 PM,"W 3-1 (25-21|23-25|25-19|25-20)"
+Sat Oct 24,MacEwan University Griffins,Tournament Capital Centre,6:45 PM,"L 3-0 (25-19|25-20|25-23)"
+Fri Oct 30,University of Calgary Dinos,Tournament Capital Centre,7:45 PM,"L 3-1 (21-25|25-17|25-18|25-22)"
+Sat Oct 31,University of Calgary Dinos,Tournament Capital Centre,6:45 PM,"L 3-2 (16-25|19-25|25-16|25-22|15-12)"
+Fri Nov 6,University of Winnipeg Wesmen,"Winnipeg MB",7:30 PM,"L 3-0 (25-22|25-10|25-21)"
+Sat Nov 7,University of Winnipeg Wesmen,"Winnipeg MB",3:30 PM,"L 3-1 (25-22|22-25|25-13|25-18)"
+Fri Nov13,Brandon University Bobcats,Tournament Capital Centre,7:45 PM,"W 3-2 (25-23|18-25|25-15|22-25|15-11)"
+Sat Nov 14,Brandon University Bobcats,Tournament Capital Centre,6:45pm,"W 3-0 (25-15|25-20|25-22)"
+Thurs Nov 26,University of British Columbia Okanagan Heat,Toournament Capital Centre,7:45 PM,"L 3-2 (18-25|27-25|22-25|25-22|15-10)"
+Sat Nov 28,University of British Columbia Okanagan Heat,"Kelowna BC",7:00 PM,"W 3-1 (25-22|22-25|25-23|25-23)"
+*Tues Dec 29,McDonalds Tourney: Calgary Dinos vs UBCO Heat,Tournament Capital Centre,6 pm,
+*Tues Dec 29,McDonalds Tournament:vs Royal Military College,Tournament Capital Centre,7:30 PM,
+*Wed Dec 30,McDonalds Tournament: Calgary Dinos vs Royal Military College,Tournament Capital Centre,11:00 AM,
+*Wed Dec 30,McDonalds Tournament: vs UBCO Heat,Tournament Capital Centre,1:00 PM,
+*Wed Dec 30,McDonalds Tournament: UBCO Heat vs Royal Military College,Tournament Capital Centre,5 pm,
+Fri Jan 8,Mount Royal University Cougars,"Calgary AB",6:00 PM,
+Sun Jan 9,Mount Royal University Cougars,"Calgary AB",5:00 PM,
+Fri Jan 15,University of Saskatchewan Huskies,Tournament Capital Centre,7:45 PM,
+Sat Jan 16,University of Saskatchewan Huskies,Tournament Capital Centre,6:45 PM,
+Fri Jan 22,University of Regina Cougars,"Regina SK",7:30 PM,
+Sat Jan 23,Univeristy of Regina Cougars,Regina SK,6:30 PM,
+Fri Jan 29,University of Manitoba Bisons,Tournament Capital Centre,7:45 PM,
+Sat Jan 30,University of Manitoba Bisons,Tournament Capital Centre,6:45 PM,
+Fri Feb 5,University of British Columbia Thunderbirds,"Vancouver BC",8:00 PM,
+Sat Feb 6,University of British Columbia Thunderbirds,"Vancouver BC",7:00 PM,
+Fri Feb 12,Trinity Western University Spartans,Tournament Capital Centre,7:45 PM,
+Sat Feb 13,Trinity Western University Spartans,Tournament Capital Centre,6:45 PM,
+Feb 26-28,CW QF,,,
+Mar 4-8,CW Final Four,,,
+Mar 11-13,CIS Nationals hosted by McMaster University,"Hamilton ON",,
