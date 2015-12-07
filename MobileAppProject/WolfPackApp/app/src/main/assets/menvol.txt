@@ -1,10 +1,10 @@
 Date,Vs,Location,Time,Result
-2015 Sept 17,UBCO Heat,"Kelowna BC",,W 3-2
-2015 Sept 24,University of Calgary Dinos-Sofaland Tourney,"Edmonton AB",6:00 PM,"L 3-0 (25-22|25-18|25-8)"
-2015 Sept 25,Keyano College (ACAC)-Sofaland Tourney,"Edmonton AB",11:00 AM,L 3-0
-2015 Sept 25,UBCO Heat-Sofaland Tourney,"Edmonton AB",6 pm,"L 3-1 (25-15|25-14|22-25|29-27)"
-2015 Sept 26,Lethbridge College-Sofaland Tourney,"Edmonton AB",1 pm,W 3-1
-2015 Sept 26,University of Alberta Golden Bears-Sofaland Tourney,"Edmonton AB",7:00 PM,"L3-1 (25-23|31-29|14-25|25-21)"
+2015 Thu Sep 17,UBCO Heat,"Kelowna BC",,W 3-2
+2015 Thu Sep 24,University of Calgary Dinos-Sofaland Tourney,"Edmonton AB",6:00 PM,"L 3-0 (25-22|25-18|25-8)"
+2015 Fri Sep 25,Keyano College (ACAC)-Sofaland Tourney,"Edmonton AB",11:00 AM,L 3-0
+2015 Fri Sep 25,UBCO Heat-Sofaland Tourney,"Edmonton AB",6 pm,"L 3-1 (25-15|25-14|22-25|29-27)"
+2015 Sat Sep 26,Lethbridge College-Sofaland Tourney,"Edmonton AB",1 pm,W 3-1
+2015 Sat Sep 26,University of Alberta Golden Bears-Sofaland Tourney,"Edmonton AB",7:00 PM,"L3-1 (25-23|31-29|14-25|25-21)"
 2015 Fri Oct 2,vs Douglas College (PACWEST),Tournament Capital Centre,7:00 PM,"W 3-1 (25-27|25-21|25-21|25-19)"
 2015 Thu Oct 8,MVB Tourney-TRU vs Trinity Western,Tournament Capital Centre,Noon,"L 3-2 (25-15|23-25|22-25|25-23|16-14)"
 2015 Thu Oct 8,"MVB Tourney-UBCO vs 'Pack""",Tournament Caital Centre,2 pm,"UBCO wins 3-1 (25-17|22-25|25-15|25-21)"
@@ -49,7 +49,7 @@ Date,Vs,Location,Time,Result
 2016 Sat Mar 5,Canada West Final Four,,,
 2016 Sun Mar 6,Canada West Final Four,,,
 2016 Mon Mar 7,Canada West Final Four,,,
-2016 Tues Mar 8,Canada West Final Four,,,
+2016 Tue Mar 8,Canada West Final Four,,,
 2016 Fri Mar 11,CIS Nationals hosted by McMaster University,"Hamilton ON",,
 2016 Sat Mar 12,CIS Nationals hosted by McMaster University,"Hamilton ON",,
 2016 Sun Mar 13,CIS Nationals hosted by McMaster University,"Hamilton ON",,

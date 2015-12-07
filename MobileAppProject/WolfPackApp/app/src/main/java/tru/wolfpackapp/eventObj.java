@@ -6,11 +6,13 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.io.Serializable;
 
 /**
  * Created by Darkhobbo on 12/6/2015.
  */
-public class eventObj {
+@SuppressWarnings("serial")
+public class eventObj implements Serializable{
     private Date date;
     private String versus;
     private String location;

@@ -147,8 +147,7 @@ public class gamesList extends AppCompatActivity {
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             Intent intent = new Intent(getApplicationContext(), gamedetails.class);
             eventObj obj = gameInfo.get(position);
-
-            intent.putExtra("gameinfo", obj.toString());
+            intent.putExtra("gameinfo", obj);
             startActivity(intent);
         }
     };
