@@ -46,7 +46,7 @@
         <activity
             android:name=".gamedetails"
             android:label="Game_Detail_code"
-            android:parentActivityName=".splashscreen" >
+            android:parentActivityName=".gamesList" >
         </activity>
 
         <activity
@@ -71,6 +71,12 @@
             android:name=".sportlist"
             android:label="Sport_List_code"
             android:parentActivityName=".malefemaleboth" >
+        </activity>
+
+        <activity
+            android:name=".gamesList"
+            android:label="Sport_List_code"
+            android:parentActivityName=".sportlist" >
         </activity>
 
     </application>

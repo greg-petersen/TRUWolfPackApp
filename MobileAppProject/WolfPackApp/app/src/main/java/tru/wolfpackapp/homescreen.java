@@ -10,6 +10,8 @@ import android.widget.ImageButton;
 
 public class homescreen extends AppCompatActivity {
 
+    private static final String APPVARS = "tru.wolfpackapp";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,17 +54,19 @@ public class homescreen extends AppCompatActivity {
             }
         });
 
+        // TEST TO SEE IF ALL DATA IS PARSED CORRECTLY.
+        /*
         getData("swimming.txt");
         getData("menbask.txt");
         getData("mensoc.txt");
-        getData("baseball.txt");
+        getData("menbaseball.txt");
         getData("menvol.txt");
         getData("wombask.txt");
         getData("womsoc.txt");
-        getData("womvol.txt");
+        getData("womvol.txt");*/
 
 /*
-        da = new dataAccess(this, "baseball.txt");
+        da = new dataAccess(this, "menbaseball.txt");
         test = da.readLine();
         Log.d("testset", "Start of while");
         while(test!=null){
@@ -72,8 +76,9 @@ public class homescreen extends AppCompatActivity {
         Log.d("testset", "End of while");
         da.close();*/
     }
-
+/*
     private void getData(String fileToOpen){
+        Log.d("testest", this.toString());
         dataAccess da = new dataAccess(this, fileToOpen);
         String test = da.readLine();
         Log.d("testset", "Start of while: " + fileToOpen);
@@ -125,5 +130,5 @@ public class homescreen extends AppCompatActivity {
                 Log.d("testset", "How did we get here?");
                 break;
         }
-    }
+    }*/
 }
