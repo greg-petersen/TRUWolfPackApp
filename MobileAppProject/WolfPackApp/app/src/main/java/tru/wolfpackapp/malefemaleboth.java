@@ -9,8 +9,6 @@ import android.widget.ImageButton;
 
 public class malefemaleboth extends AppCompatActivity {
 
-    public final static String FILTERS = "tru.wolfpackapp.FILTERS";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,7 +29,7 @@ public class malefemaleboth extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(getApplicationContext(), sportlist.class);
-                intent.putExtra(FILTERS, "men");
+                intent.putExtra("filters", "men");
                 startActivity(intent);
             }
         });
@@ -40,7 +38,7 @@ public class malefemaleboth extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(getApplicationContext(), sportlist.class);
-                intent.putExtra(FILTERS, "wom");
+                intent.putExtra("filters", "wom");
                 startActivity(intent);
             }
         });
@@ -49,7 +47,7 @@ public class malefemaleboth extends AppCompatActivity {
             @Override
             public void onClick(View arg0) {
                 Intent intent = new Intent(getApplicationContext(), sportlist.class);
-                intent.putExtra(FILTERS, "both");
+                intent.putExtra("filters", "both");
                 startActivity(intent);
             }
         });
