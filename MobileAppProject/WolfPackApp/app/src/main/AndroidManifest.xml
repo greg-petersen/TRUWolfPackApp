@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tru.wolfpackapp" >
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -9,7 +11,7 @@
         android:theme="@style/AppTheme" >
 
         <activity
-            android:name=".MainActivity"
+            android:name=".splashscreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,61 +22,61 @@
         <activity
             android:name=".agendalist"
             android:label="Agenda_code"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".splashscreen">
         </activity>
 
         <activity
-            android:name=".calender"
+            android:name=".calendar"
             android:label="Calender_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".homescreen" >
         </activity>
 
         <activity
             android:name=".currentseason"
             android:label="Currentseason_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".homescreen" >
         </activity>
 
         <activity
             android:name=".dailyschedule"
             android:label="Daily_Schedule_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".splashscreen" >
         </activity>
 
         <activity
             android:name=".gamedetails"
             android:label="Game_Detail_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".gamesList" >
         </activity>
 
         <activity
             android:name=".homescreen"
             android:label="Home_Screen_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".splashscreen" >
         </activity>
 
         <activity
             android:name=".malefemaleboth"
             android:label="Male_Female_Both_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".homescreen" >
         </activity>
 
         <activity
             android:name=".settings"
             android:label="Settings_code"
-            android:parentActivityName=".MainActivity" >
-        </activity>
-
-        <activity
-            android:name=".splashscreen"
-            android:label="Splash_Screen_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".homescreen" >
         </activity>
 
         <activity
             android:name=".sportlist"
             android:label="Sport_List_code"
-            android:parentActivityName=".MainActivity" >
+            android:parentActivityName=".malefemaleboth" >
+        </activity>
+
+        <activity
+            android:name=".gamesList"
+            android:label="Sport_List_code"
+            android:parentActivityName=".sportlist" >
         </activity>
 
     </application>

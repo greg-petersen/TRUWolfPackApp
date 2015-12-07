@@ -1,0 +1,23 @@
+Date,Location,Meet
+2015 Fri Dec 11,Kamloops,MJB Law Classic
+2015 Sat Dec 12,Kamloops,MJB Law Classic
+2015 Sun Dec 13,Kamloops,MJB Law Classic
+2016 Fri Jan 22,Kelowna,KAJ Snowfest
+2016 Sat Jan 23,Kelowna,KAJ Snowfest
+2016 Sun Jan 25,Kelowna,KAJ Snowfest
+2016 Thu Feb 18,Winnipeg,Speedo Western Canadian Swimming Championships
+2016 Fri Feb 19,Winnipeg,Speedo Western Canadian Swimming Championships
+2016 Sat Feb 20,Winnipeg,Speedo Western Canadian Swimming Championships
+2016 Sat Mar 12,TBA,SwimBC Senior Open LCM
+2016 Sun Mar 13,TBA,SwimBC Senior Open LCM
+2016 Tue April 5,Toronto,Swimming Canada Olympic Trials
+2016 Wed April 6,Toronto,Swimming Canada Olympic Trials
+2016 Thu April 7,Toronto,Swimming Canada Olympic Trials
+2016 Fri April 8,Toronto,Swimming Canada Olympic Trials
+2016 Sat April 9,Toronto,Swimming Canada Olympic Trials
+2016 Sun April 10,Toronto,Swimming Canada Olympic Trials
+2016 Fri May 13,Kelowna,KAJ LCM Invitational
+2016 Sat May 14,Kelowna,KAJ LCM Invitational
+2016 Sun May 15,Kelowna,KAJ LCM Invitational
+2016 Fri Jun 3,Kamloops,KCS June Classic
+2016 Sat Jun 4,Kamloops,KCS June Classic
