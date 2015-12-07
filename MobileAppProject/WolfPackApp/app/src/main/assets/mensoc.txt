@@ -1,7 +1,7 @@
 Date,Vs,Location,Time,Result
-2015 Wed Aug 12,Arizona Desert Cup-Mesa College Thunderbirds (NJCAA),"Phoenix Arizona",,W 3-0
-2015 Fri Aug 14,Arizona Desert Cup-Glendale Community CollegeVasqueros(NJCAA),"Phoenix Arizona",,W 3-2
-2015 Sat Aug 15,Arizona Desert Cup- Phoenix College Bears (NJCAA),"Phoenix Arizona",,L 3-2
+2015 Wed Aug 12,Arizona Desert Cup-Mesa College Thunderbirds (NJCAA),"Phoenix Arizona",TBA,W 3-0
+2015 Fri Aug 14,Arizona Desert Cup-Glendale Community CollegeVasqueros(NJCAA),"Phoenix Arizona",TBA,W 3-2
+2015 Sat Aug 15,Arizona Desert Cup- Phoenix College Bears (NJCAA),"Phoenix Arizona",TBA,L 3-2
 2015 Thu Aug 20,vs UNBC Timberwolves,"Hillside Stadium",4:00 PM,W 2-0
 2015 Sat Aug 22,MacEwan Griffins vs UBCO Heat,"Hillside Stadium",9:00 AM,UBCO 2-1
 2015 Sat Aug 22,UNBC Timberwolves vs Langara College Falcons (PACWEST),Hillside Stadium,11:00 AM,UNBC 6-1

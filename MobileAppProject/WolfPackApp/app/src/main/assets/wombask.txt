@@ -41,5 +41,3 @@ Date,Vs,Location,Time,Result
 2016 Thu May 19,CIS Finals(hosted by UNB),"Fredricton NB",,
 2016 Fri May 20,CIS Finals(hosted by UNB),"Fredricton NB",,
 2016 Sat May 21,CIS Finals(hosted by UNB),"Fredricton NB",,
-
-

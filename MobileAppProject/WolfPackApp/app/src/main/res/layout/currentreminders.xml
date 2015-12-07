@@ -20,8 +20,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/currentSeason"
-            android:id="@+id/currentSeasonTV"
+            android:text="@string/currentReminders"
+            android:id="@+id/currentReminderTV"
             android:textSize="30sp"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
@@ -31,5 +31,11 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/remindersLV" />
+    </LinearLayout>
 </LinearLayout>
