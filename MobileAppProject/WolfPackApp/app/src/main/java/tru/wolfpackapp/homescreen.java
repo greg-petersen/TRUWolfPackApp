@@ -3,8 +3,7 @@ package tru.wolfpackapp;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -40,8 +39,8 @@ public class homescreen extends AppCompatActivity {
         calenderButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent intentCalender = new Intent(getApplicationContext(), calender.class);
-                startActivity(intentCalender);
+                Intent intentCalendar = new Intent(getApplicationContext(), calendar.class);
+                startActivity(intentCalendar);
             }
         });
 
@@ -52,29 +51,5 @@ public class homescreen extends AppCompatActivity {
                 startActivity(intentSettings);
             }
         });
-
-    }
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_splashscreen, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
     }
 }

@@ -1,0 +1,45 @@
+Date,Vs,Location,Time,Result
+2015 Tue Oct 8,NAIT Ooks (ACAC),TRU Gym,8pm,W 78-60
+2015 Fri Oct 16,UBCO vs TWU (exhib tourney),TRU Gym,6pm,UBCO 78-64
+2015 Fri Oct 16,Great Falls (NAIA) (exhib tourney),TRU Gym,8:00 PM,W 84-76
+2015 Sat Oct 17,UBCO vs Great Falls (NAIA) (exhibtourney),Tournament Capital Centre,5 pm,Great Falls 66-60
+2015 Sat Oct 17,Trinity Western University Spartans (exhib tourney),Tournament Capital Centre,7:00 PM,W 74-48
+2015 Fri Oct 23,Kwantlen Polytechnic Eagles (PACWEST),Tournament Capital Centre,3pm,W 80-54
+2015 Sat Oct 24,SFU Clan (NCAA Div II),Tournament Capital Centre,2pm,W 74-56
+2015 Sat Oct 31,Northwest University (NAIA),"Kirkland WA",7pm,W 74-72
+2015 Fri Nov 6,University of Northern BC Timberwolves (season opener),"Prince George BC",8:00 PM,W 95-89
+2015 Sat Nov 7,University of Northern BC Timberwolves,"Prince George BC",7:00 PM,W 85-79
+2015 Fri Nov 13,Mount Royal University Cougars,"Calgary AB",8:00 PM,W 101-72
+2015 Sat Nov 14,Mount Royal University Cougars,"Calgary AB",7pm,W 79-66
+2015 Fri Nov 20,MacEwan University Griffins,Tournament Capital Centre,8 pm,W 74-60
+2015 Sat Nov 21,MacEwan University Griffins,Tournament Capital Centre,7 pm,L 90-85
+2015 Fri Nov 27,University of Fraser Valley Cascades,Tournament Capital Centre,8pm,W 89-75
+2015 Sat Nov 28,University of Fraser Valley Cascades,Tournament Capital Centre,7:00 PM,W 96-66
+2015 Tue Dec 29,Rocky Mountain College (NAIA) (exhibition),"Billings MT",,
+2015 Wed Dec 30,Rocky Mountain College (NAIA) (exhibition),"Billings MT",,
+2016 Fri Jan 8,University of BC Okanagan Heat,"Kelowna BC",8:00 PM,
+2016 Sat Jan 9,University of BC Okanagan Heat,"Kelowna BC",7pm,
+2016 Fri Jan 15,MacEwan University Griffins,"Edmonton AB",8:00 PM,
+2016 Sat Jan 16,MacEwan University Griffins,"Edmonton AB",7pm,
+2016 Fri Jan 22,Mount Royal University Cougars,Tournament Capital Centre,8:00 PM,
+2016 Sat Jan 23,Mount Royal University Cougars,Tournament Capital Centre,8pm,
+2016 Fri Feb 5,University of Northern BC Timberwolves,Tournament Capital Centre,8:00 PM,
+2016 Sat Feb 6,University of Northern BC Timberwolves,Tournament Capital Centre,7pm,
+2016 Fri Feb 12,University of Fraser Valley Cascades,"Abbotsford BC",8pm,
+2016 Sat Feb 13,University of Fraser Valley Cascades,"Abbotsford BC",7pm,
+2016 Fri Feb 19,University of BC Okanagan Heat,Tournament Capital Centre,8 pm,
+2016 Sat Feb 20,University of BC Okanagan Heat,Tournament Capital Centre,7 pm,
+2016 Fri Feb 26,CW Play in Series,,,
+2016 Sat Feb 27,CW Play in Series,,,
+2016 Sun Feb 28,CW Play in Series,,,
+2016 Fri Mar 4,Canada West Quarter Finals,,,
+2016 Sat Mar 5,Canada West Quarter Finals,,,
+2016 Sun Mar 6,Canada West Quarter Finals,,,
+2016 Fri Mar 11,CW Final 4,,,
+2016 Sat Mar 11,CW Final 4,,,
+2016 Sun Mar 11,CW Final 4,,,
+2016 Thu Mar 17,CIS Nationals (hosted by UBC),"Vancouver BC",,
+2016 Fri Mar 18,CIS Nationals (hosted by UBC),"Vancouver BC",,
+2016 Sat Mar 19,CIS Nationals (hosted by UBC),"Vancouver BC",,
+2016 Sun Mar 20,CIS Nationals (hosted by UBC),"Vancouver BC",,
+2016 Mon Mar 21,CIS Nationals (hosted by UBC),"Vancouver BC",,

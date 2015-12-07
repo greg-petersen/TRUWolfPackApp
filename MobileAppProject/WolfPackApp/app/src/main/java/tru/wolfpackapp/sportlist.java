@@ -1,38 +1,67 @@
 package tru.wolfpackapp;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class sportlist extends AppCompatActivity {
+
+    private String genderFilter;
+    private String[] maleSports = {"Basketball", "Soccer", "Volleyball", "Swimming", "Baseball"};
+    private String[] femaleSports = {"Basketball", "Soccer", "Volleyball", "Swimming"};
+    private String[] allSports = {"Basketball", "Soccer", "Volleyball", "Swimming", "Baseball"};
+    private String[] sports = {"bask", "soc", "vol", "swimming", "baseball"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sportslist);
-    }
+        Intent intent = getIntent();
+        genderFilter = intent.getStringExtra("filters");
+        Log.d("testest", "Filter: " + genderFilter);
+        ListView lv = (ListView)findViewById(R.id.sportsList);
+        ArrayAdapter<String> sportsAdapter;
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_splashscreen, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch(genderFilter){
+            case "men":
+                sportsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, maleSports);
+                // List male sports.
+                break;
+            case "wom":
+                sportsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, femaleSports);
+                // List female sports.
+                break;
+            case "both":
+            default:
+                sportsAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, allSports);
+                // List all sports.
+                Log.d("testest", "How did we get here?");
+                break;
         }
+        lv.setAdapter(sportsAdapter);
+        lv.setOnItemClickListener(itemSelectHandler);
 
-        return super.onOptionsItemSelected(item);
+        findViewById(R.id.backBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
+    private AdapterView.OnItemClickListener itemSelectHandler = new AdapterView.OnItemClickListener() {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            Log.d("testest", "Item clicked: " + sports[position]);
+            Intent intent = new Intent(getApplicationContext(), gamesList.class);
+            intent.putExtra("filters", genderFilter+","+sports[position]);
+            startActivity(intent);
+        }
+    };
+
 }
 
