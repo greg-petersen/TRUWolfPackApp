@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 public class settings extends AppCompatActivity {
@@ -25,13 +24,16 @@ public class settings extends AppCompatActivity {
             }
         });
 
+        /*
+
         alarm_on.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent intentMaleFemaleBoth = new Intent(getApplicationContext(), youtube_demo.class);
-                startActivity(intentMaleFemaleBoth);
+                Intent intent_youtube_demo = new Intent(getApplicationContext(), youtube_demo.class);
+                startActivity(intent_youtube_demo);
             }
         });
+
 
         alarm_off.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,13 +41,13 @@ public class settings extends AppCompatActivity {
                 Intent intentMaleFemaleBoth = new Intent(getApplicationContext(), youtube_demo.class);
                 startActivity(intentMaleFemaleBoth);
             }
-        });
+        }); */
 
         youtube_demo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent intentMaleFemaleBoth = new Intent(getApplicationContext(), youtube_demo.class);
-                startActivity(intentMaleFemaleBoth);
+                Intent demo = new Intent(getApplicationContext(), youtube_demo.class);
+                startActivity(demo);
             }
         });
     }
