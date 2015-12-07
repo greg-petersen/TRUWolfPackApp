@@ -23,6 +23,7 @@ import java.util.List;
 public class gamesList extends AppCompatActivity {
     private ArrayList games;
     private ArrayList<String[]> gameInfo;
+    private String gender, sport;
 
     public final static String GAMEINFO = "tru.wolfpackapp.GAMEINFO";
 
@@ -33,7 +34,6 @@ public class gamesList extends AppCompatActivity {
 
         Intent intent = getIntent();
         String filters[] = intent.getStringExtra(sportlist.FILTERS).split(",");
-        String gender, sport;
         gender = filters[0];
         sport = filters[1];
         String file = "";
@@ -164,6 +164,8 @@ public class gamesList extends AppCompatActivity {
                 Log.d("testest", test[x]);
 
             intent.putExtra(GAMEINFO, test);
+            intent.putExtra("gender", gender);
+            intent.putExtra("sport", sport);
             startActivity(intent);
         }
     };

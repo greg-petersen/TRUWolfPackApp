@@ -10,8 +10,6 @@ import android.widget.ImageButton;
 
 public class homescreen extends AppCompatActivity {
 
-    private static final String APPVARS = "tru.wolfpackapp";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
