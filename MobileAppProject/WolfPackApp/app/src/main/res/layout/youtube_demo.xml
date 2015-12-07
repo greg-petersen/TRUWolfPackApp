@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#F9690E"
-    android:weightSum="1">
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout">
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -28,22 +27,12 @@
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
 
-    <ImageButton
-        android:layout_width="331dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/youtube_demo"
-        android:layout_weight="0.34" />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="518dp"
+        android:id="@+id/webView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout" />
 
-    <ImageButton
-        android:layout_width="312dp"
-        android:layout_height="169dp"
-        android:id="@+id/alarm_on"
-        android:layout_weight="0.14" />
-
-    <ImageButton
-        android:layout_width="296dp"
-        android:layout_height="0dp"
-        android:id="@+id/alarm_off"
-        android:layout_weight="0.48" />
-
-</LinearLayout>
+</RelativeLayout>
