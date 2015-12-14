@@ -35,7 +35,7 @@ public class youtube_demo extends AppCompatActivity {
         view.loadUrl(url);
     }*/
 
-        String frameVideo = "<html><body>Video From YouTube! enjoy the wolf Pack app<br><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WLu-RE3r6ak\" frameborder=\"0\" allowfullscreen></iframe></body></html>";
+        String frameVideo = "<html><body>Video From YouTube! enjoy the wolf Pack app<br><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rspmuZ7R2VA\" frameborder=\"0\" allowfullscreen></iframe></body></html>";
 
         WebView displayYoutubeVideo = (WebView) findViewById(R.id.wvbrowser);
         displayYoutubeVideo.setWebViewClient(new WebViewClient() {
